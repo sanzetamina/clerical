@@ -1,0 +1,225 @@
+{
+  "clerics": [
+    {
+      "id": 1,
+      "name": "Juan",
+      "surname": "Pérez",
+      "role": "Sacerdote"
+    },
+    {
+      "id": 2,
+      "name": "Mariano",
+      "surname": "García",
+      "role": "Diácono"
+    },
+    {
+      "id": 3,
+      "name": "Carlos",
+      "surname": "Rodríguez",
+      "role": "Obispo"
+    },
+    {
+      "id": 4,
+      "name": "Lucía",
+      "surname": "Fernández",
+      "role": "Monja"
+    },
+    {
+      "id": 5,
+      "name": "Fernando",
+      "surname": "Vega",
+      "role": "Cura"
+    }
+  ],
+  "sacraments": [
+    {
+      "id": 1,
+      "reference": 100,
+      "name": "Bautismo",
+      "description": "Iniciación cristiana"
+    },
+    {
+      "id": 2,
+      "reference": 200,
+      "name": "Eucaristía",
+      "description": "Sacramento del altar"
+    },
+    {
+      "id": 3,
+      "reference": 300,
+      "name": "Confirmación",
+      "description": "Fortalecimiento de la fe"
+    },
+    {
+      "id": 4,
+      "reference": 400,
+      "name": "Matrimonio",
+      "description": "Unión matrimonial"
+    },
+    {
+      "id": 5,
+      "reference": 500,
+      "name": "Unción de enfermos",
+      "description": "Consuelo espiritual para enfermos"
+    }
+  ],
+  "parishioners": [
+    {
+      "id": 1,
+      "name": "Luis",
+      "surname": "Gomez",
+      "details": "Miembro activo"
+    },
+    {
+      "id": 2,
+      "name": "Ana",
+      "surname": "Martínez",
+      "details": "Voluntaria en eventos"
+    },
+    {
+      "id": 3,
+      "name": "Pedro",
+      "surname": "Jiménez",
+      "details": "Asiste a misa dominical"
+    },
+    {
+      "id": 4,
+      "name": "Sofía",
+      "surname": "Lorenzo",
+      "details": "Catequista"
+    },
+    {
+      "id": 5,
+      "name": "Rafael",
+      "surname": "Molina",
+      "details": "Ayudante en la liturgia"
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "name": "Catedral San Juan",
+      "address": "Calle 1, Ciudad A",
+      "coordinates": "41.40338, 2.17403"
+    },
+    {
+      "id": 2,
+      "name": "Iglesia Santa María",
+      "address": "Av. Principal, Ciudad B",
+      "coordinates": "40.71278, -74.00594"
+    },
+    {
+      "id": 3,
+      "name": "Capilla del Espíritu Santo",
+      "address": "Ruta 5, Pueblo C",
+      "coordinates": "34.05223, -118.24368"
+    },
+    {
+      "id": 4,
+      "name": "Iglesia de San Mateo",
+      "address": "Calle Mayor 5, Ciudad E",
+      "coordinates": "42.87774, -8.54484"
+    },
+    {
+      "id": 5,
+      "name": "Ermita de Santa Clara",
+      "address": "Plaza del Sol, Ciudad F",
+      "coordinates": "39.46975, -0.37739"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "clericId": 1,
+      "parishionerId": 1,
+      "sacramentId": 1,
+      "locationId": 1,
+      "collectId": 1,
+      "date": "2023-11-15",
+      "time": "10:00",
+      "duration": "00:30"
+    },
+    {
+      "id": 2,
+      "clericId": 2,
+      "parishionerId": 2,
+      "sacramentId": 2,
+      "locationId": 2,
+      "collectId": null,
+      "date": "2023-12-01",
+      "time": "18:00",
+      "duration": "01:30"
+    },
+    {
+      "id": 3,
+      "clericId": 3,
+      "parishionerId": 3,
+      "sacramentId": 3,
+      "locationId": 3,
+      "collectId": null,
+      "date": "2024-01-10",
+      "time": "18:00",
+      "duration": "01:30"
+    },
+    {
+      "id": 4,
+      "clericId": 4,
+      "parishionerId": 4,
+      "sacramentId": 4,
+      "locationId": 4,
+      "collectId": 2,
+      "date": "2023-12-10",
+      "time": "11:00",
+      "duration": "01:00"
+    },
+    {
+      "id": 5,
+      "clericId": 5,
+      "parishionerId": 5,
+      "sacramentId": 5,
+      "locationId": 5,
+      "collectId": 3,
+      "date": "2024-01-20",
+      "time": "12:00",
+      "duration": "00:45"
+    }
+  ],
+  "collects": [
+    {
+      "id": 1,
+      "type": "donación",
+      "amount": 20,
+      "currency": "€",
+      "offeredBy": "su hermano Jose",
+      "clericId": 1,
+      "description": "con bendiciones",
+      "notes": "hijo de Josefa",
+      "date": "2023-11-15",
+      "account": "Efectivo"
+    },
+    {
+      "id": 2,
+      "type": "donación",
+      "amount": 50,
+      "currency": "€",
+      "offeredBy": "la familia García",
+      "clericId": 2,
+      "description": "para obras de caridad",
+      "notes": "para el comedor social",
+      "date": "2023-12-01",
+      "account": "Transferencia"
+    },
+    {
+      "id": 3,
+      "type": "pago",
+      "amount": 30,
+      "currency": "€",
+      "offeredBy": "grupo joven",
+      "clericId": 3,
+      "description": "para la excursión",
+      "notes": "excursión anual de jóvenes",
+      "date": "2024-01-15",
+      "account": "Efectivo"
+    }
+  ]
+}
