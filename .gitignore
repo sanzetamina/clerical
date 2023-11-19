@@ -1,2 +1,3 @@
 # ignore ALL files in Specs directory
 Specs/
+node_modules
